@@ -57,17 +57,6 @@ Each package in the `src/` directory contains the actual ROS 2 code organized by
    source install/setup.bash
    ```
 
-## 📦 Packages
-
-This workspace includes various packages organized by learning objectives and project scope. Each package contains:
-
-- **Source files**: Python or C++ implementations
-- **Launch files**: ROS 2 launch configurations
-- **Package metadata**: `package.xml` for package definition
-- **Examples**: Sample code demonstrating package functionality
-
-For detailed information about each package, refer to individual package READMEs in their respective directories.
-
 ## 💡 Usage Examples
 
 ### Building a Specific Package
@@ -94,26 +83,18 @@ ros2 launch <package_name> <launch_file>.launch.py
 rqt_graph
 ```
 
-## 🛠️ Development Workflow
-
-1. Create new packages in the `src/` directory
-2. Implement nodes, services, and topics following ROS 2 best practices
-3. Write launch files for complex multi-node systems
-4. Test locally before committing
-5. Update this README with new package descriptions as they're added
 
 ## 📚 Learning Resources
 
 - [Official ROS 2 Documentation](https://docs.ros.org/en/humble/)
 - [ROS 2 Tutorials](https://docs.ros.org/en/humble/Tutorials.html)
-- [ROS 2 Design Patterns](https://docs.ros.org/en/humble/Concepts/Advanced/About-Executors.html)
+
 
 ## ⚙️ Common Commands
 
 | Command | Purpose |
 |---------|---------|
 | `colcon build` | Build all packages in the workspace |
-| `colcon test` | Run tests for all packages |
 | `ros2 node list` | List all active ROS 2 nodes |
 | `ros2 topic list` | List all active topics |
 | `ros2 service list` | List all available services |
@@ -125,19 +106,6 @@ rqt_graph
 - **Source not found**: Make sure to source the setup script after building
 - **Node not found**: Verify the package is built and the node name is correct
 - **Topic/Service errors**: Use `ros2 topic list` and `ros2 service list` to debug
-
-## 📝 Contributing & Evolution
-
-This workspace is actively maintained and continuously updated with:
-
-- New package implementations
-- Improved solutions to common problems
-- Documentation updates
-- Experimental features and prototypes
-
-<!-- ## 📄 License
-
-Specify your license here (e.g., MIT, Apache 2.0, etc.) -->
 
 ## 👤 Author
 
