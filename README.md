@@ -1,4 +1,4 @@
-# ROS 2 Workspace Adventure 🤖
+# ROS 2 Workspace Adventure ✨
 
 A comprehensive ROS 2 learning workspace containing source code, experiments, documentation, and tools for robotics development and exploration.
 
@@ -21,11 +21,7 @@ ros2_ws_adventure/
 │   ├── package_1/
 │   ├── package_2/
 │   └── ...
-├── build/                  # Build artifacts (auto-generated)
-├── install/                # Installation directory (auto-generated)
-├── log/                    # Build and execution logs (auto-generated)
-├── README.md              # This file
-└── [launch files, scripts, etc.]
+└── README.md              # This file
 ```
 
 Each package in the `src/` directory contains the actual ROS 2 code organized by functionality and purpose.
@@ -139,9 +135,9 @@ This workspace is actively maintained and continuously updated with:
 - Documentation updates
 - Experimental features and prototypes
 
-## 📄 License
+<!-- ## 📄 License
 
-Specify your license here (e.g., MIT, Apache 2.0, etc.)
+Specify your license here (e.g., MIT, Apache 2.0, etc.) -->
 
 ## 👤 Author
 
