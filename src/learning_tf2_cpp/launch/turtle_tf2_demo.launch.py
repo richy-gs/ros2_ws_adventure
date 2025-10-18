@@ -11,7 +11,7 @@ def generate_launch_description():
         ),
         Node(
             package='learning_tf2_cpp',
-            executable='turtle_tf2_broadcaster',
+            executable='static_turtle_tf2_broadcaster',
             name='broadcaster1',
             parameters=[
                 {'turtlename': 'turtle1'}
